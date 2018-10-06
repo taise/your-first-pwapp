@@ -309,10 +309,9 @@
       }
     }
   };
-  // TODO uncomment line below to test app with fake data
+
   app.updateForecastCard(initialWeatherForecast);
 
-  // TODO add startup code here
   /************************************************************************
    *
    * Code required to start the app
@@ -343,7 +342,6 @@
     app.saveSelectedCities();
   }
 
-  // TODO add service worker code here
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker
              .register('./service-worker.js')
